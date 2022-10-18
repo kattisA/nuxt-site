@@ -1,5 +1,9 @@
 <template>
-  <div>{{ title }} page</div>
+  <div>
+    <Title :title="title"/>
+
+  </div>
+
 </template>
 
 <script>
@@ -7,7 +11,7 @@ export default {
   name: 'About',
   data () {
     return {
-      title: "About"
+      title: "About page"
     }
   }
 }
