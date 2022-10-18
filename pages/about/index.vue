@@ -9,6 +9,7 @@
 <script>
 export default {
   name: 'About',
+  layout: 'auth',
   data () {
     return {
       title: "About page"
